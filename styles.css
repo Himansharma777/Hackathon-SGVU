@@ -1,0 +1,154 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #4b2a00;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+header .logo a{   
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header nav a {
+    color: burlywood;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    text-decoration: none;
+}
+
+/* Banner Section */
+.banner {
+    background: linear-gradient(to right, #ff6f61, #f9d423);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.banner button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: white;
+    color: #ff6f61;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.banner button:hover {
+    background-color: #ff6f61;
+    color: white;
+}
+
+/* Products Section */
+.products {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.products h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.product {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.product h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 20px;
+    color: #ff6f61;
+    margin-bottom: 20px;
+}
+
+.product button {
+    padding: 10px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #f56b5c;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #ff6f61;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .social-media {
+    margin-top: 10px;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .social-media a:hover {
+    color: #f9d423;
+}
